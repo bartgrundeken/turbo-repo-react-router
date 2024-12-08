@@ -44,6 +44,9 @@ importers:
       vite:
         specifier: ^6.0.3
         version: 6.0.3(@types/node@22.10.1)(tsx@4.19.2)
+      vite-tsconfig-paths:
+        specifier: ^5.1.4
+        version: 5.1.4(typescript@5.7.2)(vite@6.0.3)
       vitest:
         specifier: ^2.1.4
         version: 2.1.8(@types/node@22.10.1)
@@ -71,7 +74,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.15.0
-        version: 2.15.0(@remix-run/react@2.15.0)(@remix-run/serve@2.15.0)(@types/node@22.10.1)(typescript@5.7.2)(vite@5.4.11)
+        version: 2.15.0(@remix-run/react@2.15.0)(@remix-run/serve@2.15.0)(@types/node@22.10.1)(typescript@5.7.2)(vite@6.0.3)
       '@types/react':
         specifier: ^18.2.20
         version: 18.3.14
@@ -90,12 +93,6 @@ importers:
       typescript:
         specifier: ^5.1.6
         version: 5.7.2
-      vite:
-        specifier: ^5.1.0
-        version: 5.4.11(@types/node@22.10.1)
-      vite-tsconfig-paths:
-        specifier: ^4.2.1
-        version: 4.3.2(typescript@5.7.2)(vite@5.4.11)
 
   packages/typescript-config:
     devDependencies:
@@ -1694,7 +1691,7 @@ packages:
     dev: true
     optional: true
 
-  /@remix-run/dev@2.15.0(@remix-run/react@2.15.0)(@remix-run/serve@2.15.0)(@types/node@22.10.1)(typescript@5.7.2)(vite@5.4.11):
+  /@remix-run/dev@2.15.0(@remix-run/react@2.15.0)(@remix-run/serve@2.15.0)(@types/node@22.10.1)(typescript@5.7.2)(vite@6.0.3):
     resolution: {integrity: sha512-iXV6u9PBwFc7KriDpVcjqLGJzZZd6ZOrxewen7hoH0OBzGwjkhtm46BTQEJrZ/e/dzlU1IU/0ylH29tN9BZoyg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1770,7 +1767,7 @@ packages:
       tsconfig-paths: 4.2.0
       typescript: 5.7.2
       valibot: 0.41.0(typescript@5.7.2)
-      vite: 5.4.11(@types/node@22.10.1)
+      vite: 6.0.3(@types/node@22.10.1)(tsx@4.19.2)
       vite-node: 1.6.0(@types/node@22.10.1)
       ws: 7.5.10
     transitivePeerDependencies:
@@ -7512,8 +7509,8 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.7.2)(vite@5.4.11):
-    resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
+  /vite-tsconfig-paths@5.1.4(typescript@5.7.2)(vite@6.0.3):
+    resolution: {integrity: sha512-cYj0LRuLV2c2sMqhqhGpaO3LretdtMn/BVX4cPLanIZuwwrkVl+lK84E/miEXkCHWXuq65rhNN4rXsBcOB3S4w==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
@@ -7523,7 +7520,7 @@ packages:
       debug: 4.4.0(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.7.2)
-      vite: 5.4.11(@types/node@22.10.1)
+      vite: 6.0.3(@types/node@22.10.1)(tsx@4.19.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
