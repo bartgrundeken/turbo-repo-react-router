@@ -1,0 +1,14 @@
+{
+  "name": "@bartgrundeken/db",
+  "version": "0.1.0",
+  "description": "Low-level database operations",
+  "devDependencies": {
+    "@bartgrundeken/typescript-config": "workspace:*",
+    "drizzle-kit": "^0.29.1"
+  },
+  "private": true,
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "drizzle-orm": "^0.37.0"
+  }
+}

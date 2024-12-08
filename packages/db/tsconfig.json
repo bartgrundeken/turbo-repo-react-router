@@ -1,0 +1,3 @@
+{
+  "extends": "@bartgrundeken/typescript-config/base.json"
+}
