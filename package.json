@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "create-remix": "^2.15.0", 
+    "create-remix": "^2.15.0",
     "cypress": "^13.16.1",
     "dotenv": "^16.4.5",
     "dotenv-vault": "^1.26.2",
@@ -31,5 +31,6 @@
   },
   "engines": {
     "node": ">=20.x.x"
-  }
+  },
+  "packageManager": "pnpm@8.12.1"
 }
