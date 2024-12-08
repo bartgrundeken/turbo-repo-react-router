@@ -22,8 +22,8 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# Build output
+build
 
 # Dependency directories
 node_modules/
@@ -63,3 +63,4 @@ node_modules/
 
 # Caches
 .turbo
+.cache
