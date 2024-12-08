@@ -1,0 +1,33 @@
+{
+  "name": "@bartgrundeken/turbo-repo-remix",
+  "version": "0.1.0",
+  "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling for use with Remix.",
+  "scripts": {
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev": "turbo dev",
+    "check": "biome check --write",
+    "format": "biome format --write",
+    "lint": "biome lint --write",
+    "test": "turbo test"
+  },
+  "keywords": ["biome", "monorepo", "turborepo", "typescript", "remix"],
+  "author": "Bart Grundeken",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "cypress": "^13.16.1",
+    "dotenv": "^16.4.5",
+    "dotenv-vault": "^1.26.2",
+    "lefthook": "^1.8.2",
+    "tsx": "^4.19.2",
+    "tsup": "^8.3.5",
+    "turbo": "^2.2.3",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=20.x.x"
+  }
+}

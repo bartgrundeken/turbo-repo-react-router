@@ -1,0 +1,8 @@
+{
+  "name": "@bartgrundeken/typescript-config",
+  "version": "0.1.0",
+  "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling.",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4"
+  }
+}
