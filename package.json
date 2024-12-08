@@ -4,12 +4,14 @@
   "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling for use with Remix.",
   "scripts": {
     "build": "turbo build",
-    "check-types": "turbo check-types",
-    "dev": "turbo dev",
     "check": "biome check --write",
+    "dev": "turbo dev",
+    "e2e": "turbo e2e",
     "format": "biome format --write",
     "lint": "biome lint --write",
-    "test": "turbo test"
+    "test": "turbo test",
+    "test:watch": "turbo test:watch",
+    "typecheck": "turbo typecheck"
   },
   "keywords": ["biome", "monorepo", "turborepo", "typescript", "remix"],
   "author": "Bart Grundeken",

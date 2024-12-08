@@ -2,15 +2,16 @@
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
     "build": {},
-    "check-types": {},
     "dev": {
       "persistent": true,
       "cache": false
     },
+    "e2e": {},
     "test": {},
     "test:watch": {
       "persistent": true,
       "cache": false
-    }
+    },
+    "typecheck": {}
   }
 }
