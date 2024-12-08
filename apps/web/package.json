@@ -1,5 +1,5 @@
 {
-  "name": "apps-web",
+  "name": "@bartgrundeken/web",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -18,13 +18,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@bartgrundeken/typescript-config": "workspace:*",
     "@remix-run/dev": "^2.15.0",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.1.6"
+    "tailwindcss": "^3.4.4"
   },
   "engines": {
     "node": ">=20.0.0"

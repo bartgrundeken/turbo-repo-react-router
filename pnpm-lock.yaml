@@ -72,6 +72,9 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@bartgrundeken/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@remix-run/dev':
         specifier: ^2.15.0
         version: 2.15.0(@remix-run/react@2.15.0)(@remix-run/serve@2.15.0)(@types/node@22.10.1)(typescript@5.7.2)(vite@6.0.3)
@@ -90,9 +93,6 @@ importers:
       tailwindcss:
         specifier: ^3.4.4
         version: 3.4.16
-      typescript:
-        specifier: ^5.1.6
-        version: 5.7.2
 
   packages/typescript-config:
     devDependencies:
