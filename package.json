@@ -13,7 +13,7 @@
     "test:watch": "turbo test:watch",
     "typecheck": "turbo typecheck"
   },
-  "keywords": ["biome", "monorepo", "turborepo", "typescript", "remix"],
+  "keywords": ["biome", "monorepo", "turborepo", "typescript", "react-router"],
   "author": "Bart Grundeken",
   "license": "MIT",
   "devDependencies": {
