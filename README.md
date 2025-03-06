@@ -1,6 +1,6 @@
-# Turbo Repo Remix Template
+# Turbo Repo React Router Template
 
-A template for a monorepo using [pnpm](https://pnpm.io/) and [Turborepo](https://turbo.build/repo/docs) to support [Remix](https://remix.run) apps.
+A template for a monorepo using [pnpm](https://pnpm.io/) and [Turborepo](https://turbo.build/repo/docs) to support [React Router](https://reactrouter.com) apps.
 
 ## Prerequisites
 

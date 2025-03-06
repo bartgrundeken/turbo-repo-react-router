@@ -1,6 +1,6 @@
-# Welcome to Remix!
+# Welcome to React Router!
 
-- 📖 [Remix docs](https://remix.run/docs)
+- 📖 [React Router docs](https://reactrouter.com/home)
 
 ## Development
 
