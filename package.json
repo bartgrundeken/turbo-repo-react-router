@@ -1,7 +1,7 @@
 {
-  "name": "@bartgrundeken/turbo-repo-remix",
-  "version": "0.1.0",
-  "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling for use with Remix.",
+  "name": "@bartgrundeken/turbo-repo-react-router",
+  "version": "0.2.0",
+  "description": "Turbo repo template configured with typing, linting, code formatting, and monorepo tooling for use with React Router.",
   "scripts": {
     "build": "turbo build",
     "check": "biome check --write",
